@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes first-child last-child nth-child</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        ul li:first-child {
+            color: red;
+        }
+        ul li:last-child {
+            color: blue;
+        }
+        ul li:nth-child(2n) {
+            font-style: italic;
+        }
+        ul li:nth-child(odd) {
+            font-weight: bold;
+        }
+        ul li:nth-child(7) {
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Lorem, ipsum.</li>
+        <li>Magnam, dolorum.</li>
+        <li>Praesentium, architecto.</li>
+        <li>Illo, dicta!</li>
+        <li>Facilis, rem!</li>
+        <li>Maxime, illo!</li>
+        <li>Ducimus, sunt.</li>
+    </ul>
+</body>
+</html>
